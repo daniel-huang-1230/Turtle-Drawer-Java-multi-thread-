@@ -1,0 +1,59 @@
+*Name: Daniel Huang
+ *Login: cs8bwacy
+ *Date: 03/10/2016
+ *File: README
+ *Sources of Help: google & tutors
+ */
+Program Description:
+Explain how to run your program. What happens when you run it? How did you test your program to ensure correct output? 
+To run this program,  I will have to type in the following line in my command terminal(mac):java -cp ./turtleClasses.jar:. xxxxxx   
+The xxxxx represents the java file name of the one we want to run.
+For the CS8BTurtle.java, when I run it you will see a cute little turtle appear in a blank rectangular space. And it will draw three lines of texts containing my CS8B login, 
+Winter term, and the year 2016.
+For the second one, the CS8BTurtle_Threaded.java, you will see MANY turtles appear in the 
+blank space. Each turtle is responsible for one single character. So they will draw the same three lines of texts simultaneously!
+
+The way I test/make sure my code draw exactly what I intend it to be is to figure out the width and height of each character first, calculate the spacings between each character, and then put them in the center of the world(the blank space),which is not hard since I know the dimension of the world in advance.
+
+
+
+Short Response Questions:
+Vim Questions:
+   1.How do you set a marker in vim (use register a)
+     
+     If you want to set a marker, type m followed by a letter. For example, ma sets mark a at the current position (line and column). 
+   2.Given the first question, how do you go to that marker? 
+     
+     You can jump to line of mark a (first non-blank character in line)by typing the command 'a
+     or typing `a to jump to the position(line and column) of marker a
+   Unix Questions:
+   3. What is the command to display the first five lines of a file to the 
+      terminal? The last five lines?  
+      To display first five lines: use the command :head -5 filename
+      for displaying last five lines:  tail -5 filename
+      
+   4. What is the command to transfer files across accounts? 
+      use chmod
+   Java Questions:
+   5. 	Given the following code:
+   ARectangle r = new Rect();
+   r.toString();
+   Which class’ toString() is called? 
+       Rect class
+   6.  What is implicitly called in a classes no-argument constructor? For example:
+   public class Bar extends Foo {
+      public Bar()
+      {
+	 System.out.println(“What’s called before this statement”);
+      }
+   }
+      
+  Since this is an instance of inheritance, the Bar’s constructor would automatically put 
+a no-argument constructor of its superclass in the first line(before the system out print.. statement).
+   So the compiler would actually insert the statement “ super();  “ as the first line in 
+the body of Bar()
+
+
+
+
+
