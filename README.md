@@ -1,7 +1,7 @@
 # Project Overview 
 
 This small program has two java files: **CS8BTurtle.java** and **CS8BTurtle_Threaded.java**. The first one is a **single-threaded** program
-that uses one turtle instance to draw the characters (which show my course ID back in winter 2016 at **UC San Diego**).
+that uses one turtle instance to draw the characters (which shows my course ID back in winter 2016 at **UC San Diego**).
 The second program uses **multiple threads** by implementing **Runnable interface** to draw the same characters all at once.
 The code is, naturally, way far from clean and efficient since it's one of the first few programs I wrote 
 back when I started learning how to code in 2016. But I think we all have to start somewhere and I  would like to keep this 
